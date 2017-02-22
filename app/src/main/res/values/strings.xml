@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">LearningEnglish</string>
+    <string name="word1">Choclates</string>
+    <string name="word2">Candel</string>
+    <string name="word3">Wihses</string>
+    <string name="word4">Blessings</string>
+    <string name="word5">Baloons</string>
+    <string name="word6">Pressents</string>
+    <string name="word7">Freinds</string>
+    <string name="word8">Ribons</string>
+    <string name="word9">Invitetion</string>
+    <string name="word10">Celeberate</string>
+    <string name="word11">Familly</string>
+    <string name="word12">Gammes</string>
+    <string name="word13">Party</string>
+    <string name="correctSentences">Correct the sentences using the simple present form</string>
+    <string name="correctSentencesQ1"><b>1) My mother <u>is taking me</u> to school every day.</b></string>
+    <string name="correctSentencesQ2"><b>2) I <u>eat to</u> breakfast in the morning.</b></string>
+    <string name="correctSentencesQ3"><b>3) My uncle <u>is lives</u> in Vijayawada.</b></string>
+    <string name="correctSentencesQ4"><b>4) I <u>am coming</u> to school by bus.</b></string>
+    <string name="correctSentencesQ5"><b>5) I <u>gone</u> to my grandparent’s village during the vacations.</b></string>
+    <string name="correctSentencesQ6"><b>6) I <u>am watching</u> Chota Bheem at 6 o’clock every evening.</b></string>
+    <string name="correctSentencesQ7"><b>7) Majeed <u>will did</u> his homework before I go to play.</b></string>
+    <string name="correctSentencesQ8"><b>8) My father <u>reading</u> the newspaper every day.</b></string>
+    <string name="correctSentencesQ9"><b>9) My friend <u>is having</u> two dogs.</b></string>
+    <string name="correctSentencesQ10"><b>10) Brinda <u>is always coming</u> first in the examinations.</b></string>
+    <string name="howToCelebrateBirthday">How do you celebrate your birthday?</string>
+    <string name="TellHowToCelebrate"><b>Tell us how you celebrate your birthday.</b></string>
+    <string name="UseHints"><b>Use the hints if required.</b></string>
+    <string name="SimplePresentTenseEg1">I take the bus to school every day.</string>
+    <string name="SimplePresentTenseEg2">I wake up at 7:30 in the morning.</string>
+    <string name="SimplePresentTenseEg3">I like to eat dosa and chutney.</string>
+    <string name="SimplePresentTenseEg4">My mother helps me with my homework in the evening.</string>
+    <string name="SimplePresentTenseEg5">I cut a cake on my birthday.</string>
+    <string name="SimplePresentTenseEg6">I <u>will eat</u> lunch at school every day.</string>
+    <string name="SimplePresentTenseEg7">My grandfather <u>drunk</u> coffee every morning.</string>
+    <string name="SimplePresentTenseEg8">Deepti <u>played</u> badminton every day.</string>
+    <string name="SimplePresentTenseEg9">My sister <u>danced</u> very well.</string>
+    <string name="SimplePresentTenseEg10">Cows <u>are giving</u> us milk.</string>
+
+    <string name="Hello">Hello....</string>
+    <string name="Hello1">Ex :Hello,I am Sara. My Birthday is on 2nd September</string>
+    <string name="Hello2">What is your name? </string>
+    <string name="Hello3">Hello I am</string>
+    <string name="Hello4">My</string>
+    <string name="gree">Greetings and Introduction</string>
+    <string name="gree1">When you meet someone or before a conversation, it is important to begin with a greeting. Greetings can be of two kinds:</string>
+    <string name="formal">You greet people older than you formally. These include, parents, uncles, aunts, teachers, parents of friends.</string>
+    <string name="formal1">The formal way of greeting is more polite and well mannered.</string>
+    <string name="formal2">Phrases used for formal greetings are:</string>
+    <string name="formal3">Good morning (for the morning, up to 12 o’clock)</string>
+    <string name="formal4">Good afternoon (from the afternoon, up to 5’o clock)</string>
+    <string name="formal5">Good evening (for the rest of the evening)</string>
+    <string name="formal6">If you are meeting someone for the first time, it is important to introduce yourself after the greeting.</string>
+    <string name="formal7">To introduce yourself, you can use phrases like:</string>
+    <string name="formal8">My name is ….</string>
+    <string name="formal9">I am ….</string>
+    <string name="propernoun">The Proper Noun       </string>
+    <string name="defProperNoun">Proper Nouns are the names of people, places and organisations and things.</string>
+    <string name="example">Example:</string>
+    <string name="eg1">\u25BA She is <b>Sonia</b>. She comes from <b>Visakhapatnam</b> with her parents.</string>
+    <string name="eg2">\u25BA Her mother works at the <b>State Bank of India.</b></string>
+    <string name="propernoun2">All proper nouns begin with a capital letter.</string>
+    <string name="propernoun3">If the proper noun has more than one word, each of the words begin with a capital letter.</string>
+    <string name="eg3">\u25BA Sonia visited the <b>Taj Mahal</b> at <b>Agra</b> with her parents last year.</string>
+    <string name="eg4">\u25BA Sonia is a <b>Christian</b> and celebrates <b>Christmas</b> on 25th <b>December.</b></string>
+    <string name="eg5">\u25BA Sonia likes to sing. Her favourite singer is <b>P.Susheela.</b></string>
+    <string name="eg6">\u25BA She wants to study hard and join the <b>Indian Administrative Services</b></string>
+    <string name="Introduction">A New Student has joined your class. How would you introduce yourself? Complete the conversation given below:</string>
+    <string name="intro_title">Introduction</string>
+    <string name="intro1"><b>Swarna:</b>Hi! I am Swarna.</string>
+    <string name="intro2"><b>Madhu:</b> Hello!Swarna.</string>
+    <string name="intro3"><b>Swarna:</b>I am fine,thankyou.</string>
+    <string name="intro4"><b>Madhu:</b> </string>
+    <string name="intro5"><b>Swarna:</b>I am from Kurnool. </string>
+    <string name="rd1_intro1">May I know your good name? </string>
+    <string name="rd2_intro1">What is your name? </string>
+    <string name="rd3_intro1">What your name is? </string>
+    <string name="rd1_intro2">My name is Madhu.How are You?</string>
+    <string name="rd2_intro2">My good name is Madhu.How you doing?</string>
+    <string name="rd3_intro2">Myself Madhu.Are You Ok?</string>
+    <string name="rd1_intro3">Which place you are coming from?  </string>
+    <string name="rd2_intro3">Where you are from?  </string>
+    <string name="rd3_intro3">Where are you from? </string>
+    <string name="rd1_intro4">I am hailing from Vijayawada.</string>
+    <string name="rd2_intro4">I am from Vijayawada.  </string>
+    <string name="rd3_intro4">I am coming from Vijayawada. </string>
+    <string name="rd1_intro5">Come, let me introduce you to the others. </string>
+    <string name="rd2_intro5">OK, bye.   </string>
+    <string name="rd3_intro5">I will </string>
+    <string name="goodmorning">Good Morning! What is your name?</string>
+    <string name="goodmorning1">Hello! Good morning! My name is SwarnaLatha,I am Indian.</string>
+    <string name="goodevening">Good evening! Are you busy?</string>
+    <string name="goodevening1">Good evening! No,I am not busy.What is your name?</string>
+    <string name="goodevening2">My name is Swarna.I am from India.</string>
+    <string name="goodevening3">How are you? I am from Russia.</string>
+    <string name="goodafternoon">Good Afternoon! </string>
+    <string name="goodafternoon1">Hello! Good Afternoon! </string>
+    <string name="goodafter3">I am pretty good, thanks</string>
+    <string name="goodafternoon2">How are You? </string>
+    <string name="goodafternoon4">How is your life?</string>
+    <string name="goodafternoon5">I am very well</string>
+    <string name="goodmorningTitle">In the morning…</string>
+    <string name="goodafternoonTitle">In the afternoon…</string>
+    <string name="goodeveningTitle">In the evening…</string>
+    <string name="like">When we like something we say,</string>
+    <string name="like1"> <b> I Like.... </b></string>
+    <string name="like2">When we don’t like something we say,</string>
+    <string name="like3"> <b> I don’t like . . .</b> </string>
+    <string name="like4">For instance :</string>
+    <string name="like5"><b>I like to</b> wear <u>skirt and top</u>.</string>
+    <string name="like6"><b>I don’t like</b> to wear <u>salwar kameez.</u></string>
+    <string name="like7"><b>I like to</b> eat mutton biryani.</string>
+    <string name="like8"><b>I don’t like</b> to eat chicken.</string>
+    <string-array name="words">
+        <item>Proper</item>
+        <item>Nouns</item>
+        <item>are</item>
+        <item>the</item>
+        <item>names</item>
+        <item>of</item>
+        <item>people</item>
+        <item>,</item>
+        <item>places</item>
+        <item>and</item>
+        <item>organisations</item>
+        <item>and</item>
+        <item>things</item>
+
+    </string-array>
+
+
+</resources>

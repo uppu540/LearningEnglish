@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/activity_sixth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+    <TextView
+        android:id="@+id/howToCelebrateBirthdays"
+        style="@style/HeadingTextView"
+        android:gravity="center"
+        android:text="@string/howToCelebrateBirthday"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TellHowToCelebrate"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/UseHints"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <TextView
+           style="@style/PhraseHint"
+            android:text="Pray"
+            />
+        <TextView
+            style="@style/PhraseHint"
+            android:text="Cut cake"
+            />
+       <!-- <TextView
+            style="@style/PhraseHint"
+            android:text="Distribute Sweets"
+            />-->
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <TextView
+            style="@style/PhraseHint"
+            android:text="Distribute Sweets"
+            />
+        <TextView
+            style="@style/PhraseHint"
+            android:text="Get presents"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <TextView
+            style="@style/PhraseHint"
+            android:text="Invite friends home"
+            />
+        <TextView
+            style="@style/PhraseHint"
+            android:text="Wear new clothes"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            style="@style/PhraseHint"
+            android:text="Decorate the house"
+            />
+    </TableRow>
+
+    <EditText
+       style="@style/PhraseWritingEditText"
+        android:id="@+id/PhraseLine1"/>
+    <EditText
+        style="@style/PhraseWritingEditText"
+        android:id="@+id/PhraseLine2"/>
+    <EditText
+        style="@style/PhraseWritingEditText"
+        android:id="@+id/PhraseLine3"/>
+    <EditText
+        style="@style/PhraseWritingEditText"
+        android:id="@+id/PhraseLine4"/>
+    <EditText
+        style="@style/PhraseWritingEditText"
+        android:id="@+id/PhraseLine5"/>
+    <EditText
+        style="@style/PhraseWritingEditText"
+        android:id="@+id/PhraseLine6"/>
+    <EditText
+        style="@style/PhraseWritingEditText"
+        android:id="@+id/PhraseLine7"  />
+    <EditText
+        style="@style/PhraseWritingEditText"
+        android:id="@+id/PhraseLine8"/>
+    <EditText
+        style="@style/PhraseWritingEditText"
+        android:id="@+id/PhraseLine9"/>
+    <EditText
+        style="@style/PhraseWritingEditText"
+        android:id="@+id/PhraseLine10"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/celebrateBirthdayPhraseButton"
+        style="@style/CustomButtonStyle"
+        android:layout_gravity="center"
+        android:text="NEXT"/>
+
+</LinearLayout>
+</ScrollView>

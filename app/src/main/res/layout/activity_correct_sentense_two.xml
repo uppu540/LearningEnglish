@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_fourth"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/correctSentenceQuestionTextView"
+            android:text="@string/correctSentencesQ6" />
+
+        <EditText
+            android:id="@+id/answer6"
+            style="@style/correctSentenceEditText" />
+
+        <TextView
+            style="@style/correctSentenceQuestionTextView"
+            android:text="@string/correctSentencesQ7" />
+
+        <EditText
+            android:id="@+id/answer7"
+            style="@style/correctSentenceEditText" />
+
+        <TextView
+            style="@style/correctSentenceQuestionTextView"
+            android:text="@string/correctSentencesQ8" />
+
+        <EditText
+            android:id="@+id/answer8"
+            style="@style/correctSentenceEditText" />
+
+        <TextView
+            style="@style/correctSentenceQuestionTextView"
+            android:text="@string/correctSentencesQ9" />
+
+        <EditText
+            android:id="@+id/answer9"
+            style="@style/correctSentenceEditText" />
+
+        <TextView
+            style="@style/correctSentenceQuestionTextView"
+            android:text="@string/correctSentencesQ10" />
+
+        <EditText
+            android:id="@+id/answer10"
+            style="@style/correctSentenceEditText" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/prev_button"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_previous" />
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_submit" />
+        </TableRow>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    tools:context="english.learning.apssdc.learningenglish.TwoLetterThreeLetterWords">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/happyBirthday"
+            style="@style/HeadingTextView"
+            android:text="HappyBirthday"
+            android:textSize="50sp" />
+
+        <WebView
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/birth" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1." />
+
+            <EditText
+                style="@style/editText"
+                android:id="@+id/one"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/two"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1." />
+
+            <EditText style="@style/editText"
+                android:id="@+id/oneR"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/twoR"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/threeR"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2." />
+
+            <EditText style="@style/editText"
+                android:id="@+id/one2"/>
+
+            <EditText style="@style/editText"
+                   android:id="@+id/two2"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2." />
+
+            <EditText style="@style/editText"
+                android:id="@+id/oneR2"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/twoR2"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/threeR2"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3." />
+
+            <EditText style="@style/editText"
+                android:id="@+id/one3"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/two3"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3." />
+
+            <EditText style="@style/editText"
+                android:id="@+id/oneR3"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/twoR3"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/threeR3"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4." />
+
+            <EditText style="@style/editText"
+                android:id="@+id/one4"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/two4"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4." />
+
+            <EditText style="@style/editText"
+                android:id="@+id/oneR4"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/twoR4"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/threeR4"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="               " />
+
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5." />
+
+            <EditText style="@style/editText"
+                android:id="@+id/oneR5"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/twoR5"/>
+
+            <EditText style="@style/editText"
+                android:id="@+id/threeR5"/>
+
+        </TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_next"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/birthdayButton"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe100">
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_good_afternoon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:paddingLeft="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.sango.englishapp.GoodAfternoon">
+
+
+
+    <TextView
+        android:padding="16dp"
+        android:text="@string/goodafternoonTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/gm_title"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:typeface="serif"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp">
+    <TextView
+        android:paddingLeft="16dp"
+        android:text="@string/goodafternoon"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ga"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:typeface="serif"
+        android:layout_gravity="center"
+
+        android:textColor="?attr/colorControlNormal"
+        android:background="@android:color/background_light" />
+    <ImageButton
+        android:id="@+id/ib1_ga"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/speak"
+        android:layout_weight="1"
+        android:onClick="m_speak"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        />
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:typeface="serif"
+            android:paddingLeft="16dp"
+
+            android:text="@string/goodafternoon1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ga1"
+
+            android:gravity="left"
+            android:background="@android:color/background_light" />
+        <ImageButton
+            android:id="@+id/ib2_ga"
+            android:onClick="m_speak"
+            android:background="@android:color/transparent"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/speak"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/background_light">
+        <TextView
+            android:paddingLeft="16dp"
+            android:text="@string/goodafternoon2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ga2"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:typeface="serif"
+            android:layout_gravity="center"
+
+
+            android:textColor="?attr/colorControlNormal"
+            android:background="@android:color/background_light" />
+        <ImageButton
+            android:id="@+id/ib3_ga"
+            android:onClick="m_speak"
+            android:background="@android:color/transparent"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/speak"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        >
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:typeface="serif"
+           android:layout_gravity="center"
+            android:text="@string/goodafter3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ga3"
+
+            android:paddingLeft="16dp"
+
+            android:background="@android:color/background_light" />
+        <ImageButton
+            android:id="@+id/ib4_ga"
+            android:onClick="m_speak"
+            android:background="@android:color/transparent"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/speak"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/background_light">
+        <TextView
+            android:paddingLeft="16dp"
+            android:text="@string/goodafternoon4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ga4"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:typeface="serif"
+           android:layout_gravity="center"
+
+            android:textColor="?attr/colorControlNormal"
+            android:background="@android:color/background_light" />
+        <ImageButton
+            android:id="@+id/ib5_ga"
+            android:onClick="m_speak"
+            android:background="@android:color/transparent"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/speak"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="right"
+        android:background="@android:color/background_light">
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:typeface="serif"
+
+            android:text="@string/goodafternoon5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ga5"
+            android:layout_gravity="center"
+            android:paddingLeft="16dp"
+            android:gravity="left"
+            android:background="@android:color/background_light" />
+        <ImageButton
+            android:id="@+id/ib6_ga"
+            android:onClick="m_speak"
+            android:background="@android:color/transparent"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/speak"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:text="Next"
+        android:layout_width="100dp"
+        android:id="@+id/next"
+        android:layout_gravity="right|end|bottom"
+        style="@style/CustomButtonStyle"
+        android:elevation="1dp"
+        android:visibility="visible"
+        android:onClick="next" />
+</LinearLayout>
+</ScrollView>

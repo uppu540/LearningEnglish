@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+            android:weightSum="1">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="82dp"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT 1"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT 2"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT 3"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT 4"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_weight="10"
+        android:layout_marginLeft="150dp"
+        android:textStyle="normal|bold"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignStart="@+id/radioGroup"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

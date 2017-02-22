@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/basicEnglish"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_marginTop="150dp"
+        android:text="Level 1"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+
+    <Button
+        android:id="@+id/essentialEnglish"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_marginTop="40dp"
+        android:text="Level 2"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/essentialEnglish"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_marginTop="40dp"
+        android:text="Level 3"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+
+
+</LinearLayout>

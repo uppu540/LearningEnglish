@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="english.learning.apssdc.learningenglish">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/learn"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".Next"></activity>
+        <activity android:name=".FirstScreen"></activity>
+        <activity android:name=".SimplePresentTense" />
+        <activity android:name=".CorrectTheSentences2" />
+        <activity android:name=".TwoLetterThreeLetterWords" />
+        <activity android:name=".CorrectTheSentences" />
+        <activity android:name=".CorrectTheWords" />
+        <activity android:name=".CelebrateBirthdayPhrase" />
+        <activity android:name=".WhatIsThis"></activity>
+        <activity android:name=".TellUsOne"></activity>
+        <activity android:name=".TellUsTwo"></activity>
+        <activity android:name=".BasicSplashOne" />
+        <activity android:name=".BasicSplashTwo" />
+        <activity android:name=".Formal" />
+        <activity android:name=".level1"/>
+        <activity android:name=".GoodAfternoon" />
+        <activity android:name=".GoodMorning" />
+        <activity android:name=".GoodMorningYoutube" />
+        <activity android:name=".GoodEvening" />
+        <activity android:name=".Greetings" />
+        <activity android:name=".IntroduceYourself" />
+        <activity android:name=".Introduction" />
+        <activity android:name=".Main_Activity" />
+        <activity android:name=".Story_Time" />
+        <activity android:name=".propernoun" />
+        <activity android:name=".EssentialSplashOne" />
+        <activity android:name=".EssentialSplashTwo" />
+        <activity android:name=".DragDropCorrectSentence" />
+        <activity android:name=".QuizTime2" />
+        <activity android:name=".QuizTime3" />
+        <activity android:name=".QuizTime4" />
+        <activity android:name=".QuizTime5" />
+        <activity android:name=".QuizTime6" />
+        <activity android:name=".QuizTime7" />
+        <activity android:name=".QuizTime8" />
+        <activity android:name=".QuizTime9" />
+        <activity android:name=".QuizTime10" />
+        <activity android:name=".QuizTime11" />
+        <activity android:name=".QuizTime12" />
+        <activity android:name=".LoginScreen"></activity>
+        <activity android:name=".Dispatcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".EndScreen"></activity>
+    </application>
+
+</manifest>

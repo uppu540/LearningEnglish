@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="english.learning.apssdc.learningenglish.TwoLetterThreeLetterWords">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/correctWords"
+            style="@style/HeadingTextView"
+            android:text="Correct the Words"
+            android:textSize="40sp"
+            />
+
+        <WebView
+            android:background="#ffffff"
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+        </WebView>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word1" />
+
+            <EditText
+                android:id="@+id/word1"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word2" />
+
+            <EditText
+                android:id="@+id/word2"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word3" />
+
+            <EditText
+                android:id="@+id/word3"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word4" />
+
+            <EditText
+                android:id="@+id/word4"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word5" />
+
+            <EditText
+                android:id="@+id/word5"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word6" />
+
+            <EditText
+                android:id="@+id/word6"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word7" />
+
+            <EditText
+                android:id="@+id/word7"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word8" />
+
+            <EditText
+                android:id="@+id/word8"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word9" />
+
+            <EditText
+                android:id="@+id/word9"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word10" />
+
+            <EditText
+                android:id="@+id/word10"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word11" />
+
+            <EditText
+                android:id="@+id/word11"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word12" />
+
+            <EditText
+                android:id="@+id/word12"
+                style="@style/editText1" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/word13" />
+
+            <EditText
+                android:id="@+id/word13"
+                style="@style/editText1" />
+        </TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_next"
+            android:layout_gravity="center"
+            android:id="@+id/CorrectWordsButton"/>
+
+    </LinearLayout>
+</ScrollView>

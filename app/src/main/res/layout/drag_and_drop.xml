@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#ff0c00"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="MAKE A SENTENCE"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:id="@+id/option_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:background="@drawable/option"
+                android:gravity="center"
+                android:text="Birthday"
+                android:layout_marginRight="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/option_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:padding="8dp"
+                android:background="@drawable/option"
+                android:gravity="center"
+                android:text="Chacha's"
+                android:layout_marginRight="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/option_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:padding="8dp"
+                android:background="@drawable/option"
+                android:gravity="center"
+                android:text="is on"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:id="@+id/option_4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:padding="8dp"
+                android:background="@drawable/option"
+                android:gravity="center"
+                android:text="14th November"
+                android:layout_marginTop="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+            <TextView
+                android:id="@+id/choice_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/choice"
+                android:gravity="center"
+                android:text="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/choice_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/choice"
+                android:gravity="center"
+                android:text="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/choice_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/choice"
+                android:gravity="center"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/choice_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/choice"
+                android:gravity="center"
+                android:text="4"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="60dp"
+                android:background="#15ff00"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text=""
+                android:gravity="center_vertical"
+                android:id="@+id/fullText"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESET"
+                android:padding="8dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:background="#0307FC"
+                android:id="@+id/reset" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="check"
+                android:layout_marginLeft="16dp"
+                android:background="#0307FC"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:onClick="check"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
